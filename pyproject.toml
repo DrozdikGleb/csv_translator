@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "csv-translator"
+version = "0.1.0"
+description = ""
+authors = ["gdrozdov <g.drozdov.98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "csv_translator"}]
+
+[tool.poetry.dependencies]
+python = "^3.8, !=3.9.7"
+deepl = "^1.15.0"
+pandas = "^2.0.0"
+streamlit = "^1.25.0"
+python-dotenv = "^1.0.0"
+openai = "^0.27.8"
+tqdm = "^4.65.0"
+stqdm = "^0.0.5"
+tenacity = "^8.2.2"
+
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
